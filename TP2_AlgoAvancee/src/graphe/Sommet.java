@@ -18,8 +18,8 @@ public class Sommet {
 		this.head = this;
 		this.height = 1;
 		
-		this.posX = (int) (Math.random()*100);
-		this.posY = (int) (Math.random()*100);
+		this.posX = (int) (Math.random()*650); //100
+		this.posY = (int) (Math.random()*650); //100
 	}
 	
 	public void addArete(Arete arete){
