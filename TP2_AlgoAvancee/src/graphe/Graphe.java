@@ -430,7 +430,7 @@ public class Graphe extends JFrame {
 //		graphe.createRectangle();
 
 		//graphe.afficherGraphe();
-		graphe.algoKruskal();
+		graphe.algoKruskal(); //à retirer
 	    graphe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    graphe.setSize(700, 700);
 	    graphe.setVisible(true);
